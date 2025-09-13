@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+}
+
+body {
+    box-sizing:border-box;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    
+}
+
+.header{
+    padding: 2% 0% 0% 15%;
+}
+
+.menu{
+    display: flex;
+    gap: 80px;
+}
+
+.menu-link{
+    font-family: 'Montserrat', sans serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: gold;
+    text-decoration: none;
+}
+
+.nombre {
+    color: gold;
+}
+
+.presentacion{
+    display: flex;
+    align-items: center;
+    padding: 5% 15%;
+    justify-content: space-between;
+}
+
+.presentacion-contenido {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.destacado {
+      color: rgb(58, 161, 202);
+}
+
+.presentacion-contenido-titulo {
+    font-size:2.25rem;
+     font-family: "Krona One", sans-serif;
+}
+
+.inicio {
+    color:deeppink;
+}
+
+.bienvenida {
+    display: flex;
+    text-align: center; 
+    font-size: 3.125rem;
+    color:goldenrod
+}
+
+.presentacion-contenido-texto {
+    font-size: 1.6rem;
+     font-family: "Montserrat", sans-serif;
+}
+
+.presentacion-enlaces {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px; 
+}
+
+.redes {
+    font-family: Krona One;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color:chartreuse;
+}
+
+.presentacion-enlaces-ig-github {
+    text-align: center;
+    padding: 21.5px 0;
+    margin: 0 20px;
+    width: 50%;
+    border-radius: 8px;
+    font-family:  "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    text-decoration:none;
+    border: 4px dashed gold;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.presentacion-enlaces-ig-github:hover {
+    background-color: rgba(235, 229, 183, 0.39);
+}
+
+.presentacion-imagen {
+    width: 50%;
+}
+
+.footer{
+    background-color: rgba(36, 152, 247, 0.747);
+    padding: 24px;
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+@media (max-width: 1150px ){
+
+    .header{
+        padding: 10%;
+    }
+
+    .menu{
+        justify-content: center;
+    }
+
+    .presentacion{
+        flex-direction: column-reverse;
+        padding:5%;
+    }
+
+    .presentacion-contenido{
+        width: auto;
+    }
+
+}
